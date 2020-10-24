@@ -1,0 +1,17 @@
+.container1, .container2 {
+    width: 40vw;
+}
+
+.container3 {
+    width: 80vw;
+}
+
+.container4 {
+    width: 80vw;
+}
+
+.li1 li p, .li2 li p, .li3 li p, .li4 li p {
+    font-size: 16rem;
+}
+
+

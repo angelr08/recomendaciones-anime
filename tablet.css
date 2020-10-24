@@ -1,0 +1,33 @@
+.nav {
+    font-size: 18rem;
+}
+
+h1 {
+    font-size: 30rem;
+}
+
+h2 {
+    font-size: 24rem;
+}
+
+.main {
+    justify-content: space-around;
+}
+
+.container1, .container2, .container3, .container4 {
+    width: 35vw;
+    min-height: 70vh;
+    border-radius: 4rem;   
+}
+
+.creditos {
+    font-size: 16rem;
+}
+
+.github, .facebook {
+    width: 30rem;
+    height: 30rem;
+}
+
+
+

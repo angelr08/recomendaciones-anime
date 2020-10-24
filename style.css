@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 6.25%;
+}
+
+body {
+    background-color: #FFFCC9;
+    color: #331E28;
+}
+
+.header {
+    max-width: 100vw;
+    height: 10vh;
+    background-color: #9FCDC0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.logo img {
+    width: 120rem;
+    height: 50rem;
+}
+
+.logo {
+    padding: 10rem 20rem;
+}
+
+.nav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14rem;
+    font-weight: 900;
+    list-style: none;
+    display: flex;
+    margin-right: 10rem;
+}
+
+.nav li {
+    padding: 10rem;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24rem;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 30rem;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18rem;
+    font-weight: 500; 
+    align-self: flex-start;
+    margin-top: 30rem;
+    margin-bottom: 30rem;
+}
+
+.container1, .container2, .container3, .container4 {
+    width: 80vw;
+    min-height: 70vh;
+    border-radius: 4rem;   
+}
+
+.container1 {
+    background-color: #DAE6C0;
+}
+
+.container2 {
+    background-color: #E6BE9A;
+}
+
+.container3 {
+    background-color: #DAE6C0;
+}
+
+.container4 {
+    background-color: #E6BE9A;
+}
+
+.li1, .li2, .li3, .li4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.li1 li img, .li2 li img, .li3 li img, .li4 li img {
+    width: 112.5rem;
+    height: 161rem;
+    margin: 10rem 10rem;
+}
+
+.li1 li p, .li2 li p, .li3 li p, .li4 li p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14rem;
+    margin-left: 10rem;
+}
+
+.footer {
+   max-width: 100vw;
+    height: 10vh;
+    background-color: #422835;
+    display: flex;
+    margin-top: 30rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.creditos {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14rem;
+    font-weight: 500;
+    color: #FEFCE4;
+}
+
+.creditos p {
+    margin-left: 15rem;
+}
+
+.redes {
+    display: flex;
+}
+
+.github, .facebook {
+    width: 24rem;
+    height: 24rem;
+    margin-right: 15rem;
+}
